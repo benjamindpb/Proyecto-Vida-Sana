@@ -1,0 +1,341 @@
+
+/*ESTILO GRAL*/
+
+body{
+  font-family: 'Trebuchet MS',sans-serif;
+}
+a {
+  text-decoration: none;
+}
+nav{
+  font-family: 'Trebuchet MS';
+}
+
+#wrapper{
+	margin: 0 auto;
+  max-width: 940px;
+  padding: 0 5%;
+}
+
+img{
+  max-width: 100%;
+}
+#logo_fcfm{
+  max-width: 250px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+#mens-sana-logo{
+  max-width: 10%;
+}
+
+/*HEADING*/
+
+header{
+  margin: 0 0; /*modo horario*/
+  padding: 0 0 0 0;
+}
+#mind-logo{
+  float: right;
+  max-height: 80%;
+  margin-right: 50px;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+
+  margin: 0 0 60px 0;
+  font-size: 4em;/*medida relativa (multiplicador)*/
+  font-weight: normal;
+  line-height: 0.5em;
+  text-align: center;
+  display: inline-block;
+  margin-left: 10%;
+
+}
+
+h4{
+  font-size: 0.8em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+/*PAGINA PORTAFOLIO*/
+#gallery{
+  margin: 30px auto;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  display: flex;
+
+}
+#gallery li{
+  margin: 20px 20px;
+  width: 30%;
+  display: inline-table;
+  background-color: #0ec39699;
+}
+#gallery a{
+  color: #000;
+}
+#gallery a:hover{
+  color:white;
+}
+#bajada-pagina{
+  margin:auto;
+  margin-top: 70px;
+  width: 900px;
+  height: 300px;
+
+}
+#noticias{
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+  float: left;
+  background-color: #0ec39699;
+  border: 1px solid black;
+  text-align: center;
+}
+#consejo{
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+  float: right;
+  background-color: #0ec39699;
+  border: 1px solid black;
+  text-align: center;
+}
+/*SECCIONES*/
+#mapa{
+  max-width: 600px;
+  margin: 30px auto;
+  text-align: center;
+}
+#cuadro-ofertas{
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #0ec39699;
+  text-align: center;
+}
+#menus{
+  max-width: 940px;
+  margin: 30px auto;
+  text-align: justify;
+}
+#imagenes-menu{
+  max-width: 940px;
+  margin: 30px auto;
+  text-align: center;
+}
+#frutas-menu,#vegetales-menu{
+  width: 450px;
+}
+#lista-menus{
+  list-style: none;
+}
+#lista-menus a:hover{
+  color:#2ad956;
+}
+#logo_fcfm_2,#mantenimiento,#mens-sana{
+  text-align: center;
+  margin-top: 50px;
+}
+#mens-sana{
+  text-align: center;
+  margin-top: 70px;
+}
+
+
+
+
+/*FOOTER*/
+footer{
+  font-size: 1em;
+  text-align: center;
+  padding-top: 50px;
+  color: #000000e6;
+  clear: both;
+}
+.social-icon { /*clases con punto (.)*/
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+/*COLORES*/
+a {
+  color: #002eff;
+}
+
+header{
+  background: #2ad956;
+  border-color: #33adff;
+  height: 175px;
+}
+
+h1 {
+  color:#000;
+}
+
+
+nav {
+  background: #2f9300;
+  text-align: center;
+  list-style: none;
+
+}
+nav ul{
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+nav li{
+  display: inline-block;
+  margin: 10px 10px 10px;
+}
+
+nav a, nav a {
+  color:#fff;
+
+}
+nav a:hover {
+  color: #0ec396;
+}
+
+body{
+  background-color: #fff;
+  color: #000;
+}
+nav a{
+  font-weight: 800;
+  padding: 15px 10px;
+}
+section{
+  background-color: #fff;
+}
+div#preguntas{
+  background-color: #fff;
+}
+/*Acerca de*/
+.photo{
+  display: block;
+  margin: 0 auto 100px;
+  max-width: 200px;
+}
+
+#wrapper-acerca{
+  margin: 50px auto;
+  max-width: 800px;
+  text-align: justify;
+}
+h3{
+  margin: 0 0 10px 0;
+}
+/*PAGINA CONTACTO*/
+#wrapper-contacto{
+  max-width: min-content;
+  margin: 50px auto;
+}
+#wrapper-contacto ul li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+
+.contact-info a{
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10;
+}
+.contact-info li.phone a{
+  background-image: url('../img/005-whatsapp.png');
+}
+.contact-info li.mail a{
+  background-image: url('../img/mail.png');
+}
+.contact-info li.twitter a{
+  background-image: url('../img/008-twitter.png');
+}
+/*PAGINA REGISTRO*/
+#preguntas{
+  background-color: #0ec39699;
+  max-width: max-content;
+  margin: 20px auto;
+  padding: 20px 5%;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: small;
+}
+fieldset{
+  border: none;
+}
+
+/*PAGINA SESION*/
+div#body{
+  text-align: center;
+  margin-bottom: 200px;
+}
+.boton_submit{
+  cursor: pointer;
+}
+.login_contenedor{
+  background-color: #EFEFEF;
+  width: 350px;
+  border-top: solid .5rem #0ec396;
+  box-sizing: border-box;
+  padding: 3rem 0;
+  box-shadow: 0 0 1.5rem #8a8c8a;
+  margin: 4% auto;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+.login_top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login_title span{
+  color:#f39b53;
+}*/
+.login_img{
+  width: 8rem;
+  border-radius: 50%;
+}
+.login_form{
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 2rem 0;
+}
+input[type=text], [type=password]{
+  height: .5rem;
+  margin: .5rem 0;
+  padding: 1rem;
+  transition: all .7s;
+}
+input[type=text]:focus, [type=password]:focus{
+  border-color: #C8C8C8;
+  background-color: #EFEFEF;
+}
+.boton_submit{
+  height: 2.5rem;
+  border: none;
+  background-color: #2ad956;
+  color: white;
+  padding: .5px;
+  margin: .5rem 0 .3rem;
+}
+.boton_submit:hover{
+  background-color: #39A1E5;
+}
+.form_recover{
+  color: #2f9300;
+  text-decoration: none;
+  text-align: center;
+  font-size: 13px;
+}
+.form_recover:hover{
+  color: #E67E22;
+}

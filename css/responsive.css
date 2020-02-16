@@ -1,0 +1,55 @@
+/**********
+Diseño web adaptable
+***********/
+
+
+@media all and (min-width: 480px) {
+  #primary{
+    width: 50%;
+    float: left; /*aliniamiento en columnas*/
+  }
+  #secondary{
+    width: 50%;
+    float: left;
+  }
+
+  /*portafolio*/
+  #gallery li{
+    /*15% margin 85%elementos / 3 = 28.333*/
+    width: 28.333%;
+  }
+
+  #gallery li:nth-child(4n){
+    clear: left;
+  }
+
+  /*profile photo*/
+  .photo{
+    float: left; 
+    margin: 0 5% 80px 0;
+  }
+
+}
+@media all and (min-width: 660px) {
+  /*acerca de*/
+  nav{
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+
+  #logo{
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+  header{
+    border-bottom: 5px solid #509a78;
+    margin-bottom: 60px;
+  }
+
+}
